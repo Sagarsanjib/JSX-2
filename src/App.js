@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAirbnb } from '@fortawesome/free-brands-svg-icons' 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <h1>The Evolution of Airbnb's Frontend</h1>
+      <p>@spikebrehm</p>
+      <FontAwesomeIcon fontSize={45} icon={faAirbnb} />
+      <p>airbnb</p>
+     
+
+
     </div>
+
+    
+    
   );
 }
 
